@@ -1,0 +1,19 @@
+.et-btn {
+  background: #2A5584;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  padding: .8em 1.3em;
+
+  &:hover {
+    background: #2A5584;
+  }
+
+  &--danger {
+    background: #ec3a3a;
+
+    &:hover {
+      background: #ec3a3a;
+    }
+  }
+} 

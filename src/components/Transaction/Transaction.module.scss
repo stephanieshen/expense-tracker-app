@@ -1,0 +1,19 @@
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5em;
+}
+
+.col {
+  &:first-of-type {
+    padding-left: 0;
+  }
+
+  &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+.row {
+  margin-bottom: .7em;
+}

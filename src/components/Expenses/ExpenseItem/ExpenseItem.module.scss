@@ -1,0 +1,71 @@
+.expenseItem {
+  background-color: #E7E7E7;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+
+  &:not(:last-of-type) {
+    margin-bottom: .8em;
+  }
+
+  &:hover {
+    .deleteExpenseBtn {
+      display: flex;
+    }
+  }
+}
+
+.title {
+  margin: 0;
+}
+
+.amount {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.15em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2em;
+}
+
+.category {
+  margin: 0;
+  text-transform: capitalize;
+  color: #AAA9A9;
+  font-size: .8em;
+}
+
+.deleteExpenseBtn {
+  padding: 1em !important;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  position: absolute;
+  top: -0.5em;
+  right: -6px;
+  background-color: #3f3f3f !important;
+  border-radius: 100% !important;
+  font-size: .8em;
+  display: none;
+}
+
+.iconWrapper {
+  background: #2A5584;
+  color: #fff;
+  border-radius: 8px;
+  width: 3em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  width: 70%;
+  padding: 0 1.4em;
+}

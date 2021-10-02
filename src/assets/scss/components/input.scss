@@ -1,0 +1,16 @@
+.et-input {
+  background-color: #fbfbfb;
+  padding: .8em;
+  border: none;
+  border-radius: 8px;
+
+  &::placeholder {
+    color: #AAA9A9;
+    font-size: .8em;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}

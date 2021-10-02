@@ -1,0 +1,30 @@
+/*
+* RESET RULES
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  background-color: #f1f1f1;
+
+  @include respond-above(md) {
+    padding: 1.5em 10em;
+  }
+
+  @include respond-above(lg) {
+    padding: 1.5em 25em;
+  }
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+  font-family: 'RopaSans', sans-serif;
+}

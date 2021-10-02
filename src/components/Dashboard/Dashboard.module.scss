@@ -1,0 +1,52 @@
+@import '../../assets/scss/config.scss';
+
+.addIcon {
+  background-color: transparent !important;
+  color: #b2b2b2 !important;
+  padding: 5px !important;
+  font-size: .7em;
+  margin-left: 1em;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.amount {
+  margin: 0;
+}
+
+.card {
+  background-color: #2A5584;
+  color: #fff;
+  padding: 1.5em 1em;
+  border-radius: 8px;
+
+  @include respond-above(md) {
+    padding: 2em;
+  }
+}
+
+.col {
+  &:first-of-type {
+    padding-left: 0;
+  }
+
+  &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+.income {
+  margin-bottom: 1.5em;
+}
+
+.label {
+  margin: 0 0 3px;
+  color: #AAA9A9;
+  font-size: 1.2em;
+}
+
+.white {
+  color: #fff;
+}
